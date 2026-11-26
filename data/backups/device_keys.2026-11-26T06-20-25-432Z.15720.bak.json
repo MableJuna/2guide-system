@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "keys": {
+    "ESP32_SEC_TEST_01": {
+      "tokenHash": "6d8c7c1132a113ed6835e7628f70fda9e18140138dc07fa3ef4537e08b50dbbd",
+      "issuedAt": "2026-11-26T06:20:25.422Z",
+      "status": "revoked",
+      "revokedAt": "2026-11-26T06:20:25.427Z"
+    }
+  },
+  "revoked": [
+    {
+      "deviceId": "ESP32_SEC_TEST_01",
+      "reason": "stolen_unit",
+      "revokedAt": "2026-11-26T06:20:25.427Z"
+    }
+  ]
+}
