@@ -1,0 +1,62 @@
+{
+  "engine": "HoaLoGroqSkill Vietnamese-Pivot v2.2 + dataset_hoa_lo_vi",
+  "kb_totals": {
+    "zones": 14,
+    "golden_qa": 1000,
+    "fact_cards": 36,
+    "micro_stories": 28,
+    "myth_busters": 12,
+    "disambiguation_rules": 6,
+    "extended_questions": 1600
+  },
+  "benchmark_1600": {
+    "total": 1600,
+    "zone_accuracy_count": 1552,
+    "zone_accuracy_pct": 97.0,
+    "false_oos_count": 0,
+    "elapsed_sec": 116.79,
+    "avg_ms_per_query": 73.0,
+    "by_dataset": {
+      "bo1_vi": {
+        "total": 500,
+        "zone_ok": 490,
+        "false_oos": 0
+      },
+      "bo2_vi": {
+        "total": 500,
+        "zone_ok": 482,
+        "false_oos": 0
+      },
+      "4lang_en": {
+        "total": 150,
+        "zone_ok": 146,
+        "false_oos": 0
+      },
+      "4lang_es": {
+        "total": 150,
+        "zone_ok": 143,
+        "false_oos": 0
+      },
+      "4lang_zh": {
+        "total": 150,
+        "zone_ok": 144,
+        "false_oos": 0
+      },
+      "4lang_ja": {
+        "total": 150,
+        "zone_ok": 147,
+        "false_oos": 0
+      }
+    }
+  },
+  "eval_suite_95": {
+    "in_scope_passed": 90,
+    "in_scope_total": 91,
+    "oos_passed": 4,
+    "oos_total": 4
+  },
+  "hard_audit_cases": {
+    "passed": 29,
+    "total": 30
+  }
+}

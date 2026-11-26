@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-11-26T06:22:27.541Z",
+  "environment": {
+    "node": "v26.13.0",
+    "platform": "win32",
+    "arch": "x64",
+    "note": "Local loopback load test (Node Gateway + Python AI Engine + RAM PCM cache)."
+  },
+  "ble_scan_load": [
+    {
+      "concurrency": 1,
+      "total_requests": 30,
+      "elapsed_sec": 0.126,
+      "rps": 238.73,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 3.26,
+        "p95": 4.74,
+        "p99": 24.18,
+        "max": 24.18
+      },
+      "memory_mb": {
+        "rss": 55.8,
+        "heapUsed": 12.2
+      },
+      "cpu_ms": {
+        "user": 63,
+        "system": 15
+      }
+    },
+    {
+      "concurrency": 10,
+      "total_requests": 100,
+      "elapsed_sec": 0.335,
+      "rps": 298.49,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 32.39,
+        "p95": 44.08,
+        "p99": 45.24,
+        "max": 45.72
+      },
+      "memory_mb": {
+        "rss": 60.4,
+        "heapUsed": 12
+      },
+      "cpu_ms": {
+        "user": 125,
+        "system": 78
+      }
+    },
+    {
+      "concurrency": 50,
+      "total_requests": 250,
+      "elapsed_sec": 1.415,
+      "rps": 176.71,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 270.54,
+        "p95": 434.42,
+        "p99": 436.25,
+        "max": 437.4
+      },
+      "memory_mb": {
+        "rss": 64.8,
+        "heapUsed": 13.5
+      },
+      "cpu_ms": {
+        "user": 516,
+        "system": 516
+      }
+    },
+    {
+      "concurrency": 100,
+      "total_requests": 400,
+      "elapsed_sec": 1.974,
+      "rps": 202.65,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 445.89,
+        "p95": 836.27,
+        "p99": 839.32,
+        "max": 840.32
+      },
+      "memory_mb": {
+        "rss": 71.9,
+        "heapUsed": 14.4
+      },
+      "cpu_ms": {
+        "user": 765,
+        "system": 656
+      }
+    }
+  ],
+  "voice_ask_load": [
+    {
+      "concurrency": 1,
+      "total_requests": 10,
+      "elapsed_sec": 4.621,
+      "rps": 2.16,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 430.97,
+        "p95": 823.8,
+        "p99": 823.8,
+        "max": 823.8
+      },
+      "memory_mb": {
+        "rss": 87.1,
+        "heapUsed": 16.2
+      },
+      "cpu_ms": {
+        "user": 391,
+        "system": 407
+      }
+    },
+    {
+      "concurrency": 10,
+      "total_requests": 40,
+      "elapsed_sec": 3.393,
+      "rps": 11.79,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 707.03,
+        "p95": 1105,
+        "p99": 1324.39,
+        "max": 1324.39
+      },
+      "memory_mb": {
+        "rss": 92,
+        "heapUsed": 12.1
+      },
+      "cpu_ms": {
+        "user": 1390,
+        "system": 1312
+      }
+    },
+    {
+      "concurrency": 50,
+      "total_requests": 100,
+      "elapsed_sec": 7.821,
+      "rps": 12.79,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 3328.56,
+        "p95": 6322.3,
+        "p99": 6699.2,
+        "max": 7785.25
+      },
+      "memory_mb": {
+        "rss": 103.7,
+        "heapUsed": 15.9
+      },
+      "cpu_ms": {
+        "user": 3516,
+        "system": 3625
+      }
+    },
+    {
+      "concurrency": 100,
+      "total_requests": 200,
+      "elapsed_sec": 15.706,
+      "rps": 12.73,
+      "error_rate_pct": 0,
+      "latency_ms": {
+        "p50": 6239.74,
+        "p95": 12078.08,
+        "p99": 13447.49,
+        "max": 13652.74
+      },
+      "memory_mb": {
+        "rss": 129,
+        "heapUsed": 17.4
+      },
+      "cpu_ms": {
+        "user": 6656,
+        "system": 7500
+      }
+    }
+  ]
+}
